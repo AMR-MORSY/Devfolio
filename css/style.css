@@ -85,23 +85,7 @@
     background-color: white;
 }
 
-@media screen and (max-width:992px) {
-    .test2 {
-        width: 50%;
-        position: unset;
-    }
-    .test {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-        height: auto;
-        width: 100%;
-    }
-    .dropdown-menu {
-        width: 70%;
-    }
-}
+
 
 .devo {
     background-image: url(../images/intro-bg.jpg);
@@ -172,9 +156,7 @@ span {
     font-weight: 600;
 }
 
-.achievements{
-    height: 50%;
-}
+
 .contt 
 {
     z-index: 5;
@@ -204,26 +186,6 @@ span {
     flex-direction: column;
     justify-content: center;
     z-index: 2;
-}
-@media (max-width:992px)
-{
-    .navbar {
-        justify-content: space-between;
-    }
-
-}
-@media screen and (max-width:600px) {
-   
-    .item {
-        height: 25%;
-    }
-    .count {
-        height: 1055PX;
-    }
-    .row {
-        padding-top: 50px;
-        display: block;
-    }
 }
 
 .carousel {
@@ -279,17 +241,6 @@ span {
     font-size: 20px;
 }
 
-@media screen and (max-width:1590px) {
-    .carousel {
-        height: 100vh;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl {
-        max-width: 1300px;
-    }
-}
 
 .zom {
     transition: 2s transform;
@@ -372,6 +323,21 @@ span {
     transform: translate(-50%, 25%);
     
 }
+
+@media screen and (max-width:1590px) {
+    .carousel {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1300px;
+    }
+    .expand {
+        min-height: 900px;
+     }
+}
 @media (min-width:992px) and (max-width:1200px)
 {
     .card-1::after
@@ -410,12 +376,51 @@ span {
         font-size: 12px;
 
     }
+    .icons-container {
+        min-width: 80%;
+    }
+    .container-position {
+        max-height: 80%;
+        top: 50px;
+    }
+    .expand {
+        min-height: 900px;
+    }
+    .navbar {
+        justify-content: space-between;
+    }
+    .test2 {
+        width: 50%;
+        position: unset;
+    }
+    .test {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        height: auto;
+        width: 100%;
+    }
+    .dropdown-menu {
+        width: 70%;
+    }
 }
 @media (min-width:577px) and (max-width:767px)
 {
-    .achievements
-    {
-        height: 100vh;
+    .test2 {
+        width: 50%;
+        position: unset;
+    }
+    .test {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        height: auto;
+        width: 100%;
+    }
+    .dropdown-menu {
+        width: 70%;
     }
     .card-1::after
     {
@@ -432,16 +437,41 @@ span {
       
 
     }
+    .icons-container {
+        min-width: 80%;
+    }
+    .container-position {
+        max-height: 80%;
+        top: 50px;
+    }
+    .expand {
+        min-height: 900px;
+    }
+    .navbar {
+        justify-content: space-between;
+    }
 }
 @media (max-width:576px)
 {
-    .achievements
-    {
-        height: 100vh;
+    .test2 {
+        width: 50%;
+        position: unset;
     }
+    .test {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        height: auto;
+        width: 100%;
+    }
+    .dropdown-menu {
+        width: 70%;
+    }
+   
     .card-1::after
     {
-       top:60%;
+       top:42%;
     }
     .card-2::after
     {
@@ -453,6 +483,28 @@ span {
         top:60%;
       
 
+    }
+    .expand {
+        min-height: 1300px;
+    }
+    .container-position {
+        min-height: 80%;
+    }
+    .icons-container {
+        min-width: 85%;
+    }
+    .end{
+        min-width: 90%;
+    }
+    .item {
+        height: 25%;
+    }
+    .count {
+        height: 1055PX;
+    }
+    .row {
+        padding-top: 50px;
+        display: block;
     }
 }
 
@@ -485,39 +537,6 @@ span {
     z-index: 55;
 }
 
-@media screen and (max-width: 600px) {
-    .expand {
-        min-height: 1300px;
-    }
-    .container-position {
-        min-height: 80%;
-    }
-    .icons-container {
-        min-width: 85%;
-    }
-    .end{
-        min-width: 90%;
-    }
-}
-
-@media (min-width:600px) and (max-width: 900px) {
-    .icons-container {
-        min-width: 80%;
-    }
-    .container-position {
-        max-height: 80%;
-        top: 50px;
-    }
-    .expand {
-        min-height: 900px;
-    }
-}
-@media (min-width:1201px)
-{
-    .expand {
-       min-height: 900px;
-    }
-}
 
 .social-icons {
     width: 50px;
