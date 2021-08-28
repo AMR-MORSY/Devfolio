@@ -749,6 +749,13 @@ footer {
     }
     .caption {
         padding-right: 0;
+    
+    }
+    .caption p {
+        font-size: 10px;
+        padding-left: 10px;
+    
+        line-height: 30px;
     }
     #services {
         height: unset;
