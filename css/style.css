@@ -256,12 +256,18 @@ body {
     width: 150px;
     height: 150px;
 }
+.testmon-caption{
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
 .caption {
     padding-right: 50px;
     height: 150px;
 }
-
+.skill{
+    padding-left: 50px;
+}
 .caption p {
     margin-bottom: 0;
     line-height: 40px;
@@ -747,6 +753,19 @@ footer {
         padding-top: 70px;
         height: unset;
     }
+    .image-caption {
+    
+        padding-left: 0;
+        
+    }
+    .skill{
+        padding-left: 0;
+    }
+    .testmon-caption{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
     .caption {
         padding-right: 0;
     
@@ -772,7 +791,7 @@ footer {
         padding-bottom: 100px;
     }
     #contact {
-        height: 150vh;
+        height: 170vh;
     }
     .icons-container {
         margin-bottom: 20px;
@@ -834,15 +853,20 @@ footer {
         height: unset;
     }
     #acheivments {
-        height: 120vh;
+        height: 230vh;
         margin-top: 0;
     }
     #blog {
         height: unset;
         padding-bottom: 100px;
     }
+    #carusil {
+        height: 120vh;
+    
+    }
+    
     #contact {
-        height: 150vh;
+        height: 270vh;
     }
     .icons-container {
         margin-bottom: 20px;
@@ -853,6 +877,10 @@ footer {
     }
     .end p {
         font-size: 16px;
+    }
+    footer{
+        height: unset;
+
     }
 }
 
