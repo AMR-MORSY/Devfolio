@@ -12,9 +12,9 @@
     box-sizing: border-box;
 }
 
-body {
-    height: 100vh;
-}
+
+
+
 
 /*//////////////// ////////////////////////////////////////Header/////////////////////////////////////////////////////////////////////////////// */
 
@@ -235,7 +235,7 @@ body {
 
 #testimonial {
     padding-top: 100px;
-    height: 100vh;
+    
 }
 
 .image-caption {
@@ -283,7 +283,7 @@ body {
 /* //////////////////////////////////////////////////////services////////////////////////////////////////////////////////////////////////////// */
 
 #services {
-    height: 100vh;
+  
     padding-top: 70px;
 }
 
@@ -370,7 +370,7 @@ span {
 /* //////////////////////////////////////////////////////////////////Acheivements///////////////////////////////////////////////////////////// */
 
 #acheivments {
-    height: 50vh;
+   
     background-image: url(../images/counters-bg.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -453,7 +453,7 @@ span {
 /* ////////////////////////////////////////////////////////////////////Carousel/////////////////////////////////////////////////////////////////////// */
 
 #carusil {
-    height: 80vh;
+  
     background-image: url(../images/overlay-bg.jpg);
     background-attachment: fixed;
     background-position: center center;
@@ -539,7 +539,7 @@ span {
 /* //////////////////////////////////////////////////////////////////////////Blog/////////////////////////////////////////////////////////////////// */
 
 #blog {
-    height: 100vh;
+   
     padding-top: 40px;
 }
 
@@ -615,13 +615,20 @@ span {
 /* ////////////////////////////////////////////////////////////////////////////////Contact///////////////////////////////////////////////////////// */
 
 #contact {
-    height: 100vh;
+   
     background-image: url(../images/overlay-bg.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
 }
+.overlayer2
+{
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: rgba(40, 124, 217, 0.7);
 
+}
 .expand {
     width: 100%;
     height: 100%;
@@ -682,7 +689,7 @@ span {
 /* //////////////////////////////////////////////////////////////////Footer///////////////////////////////////////////////////////////////////////// */
 
 footer {
-    height: 15vh;
+  
     background-color: rgba(40, 50, 300, 1);
 }
 
@@ -946,7 +953,7 @@ footer {
     }
     #testimonial {
         padding-top: 30px;
-        height: 100vh;
+        height: unset;
         margin-bottom: 30px;
     }
     #services {
@@ -954,9 +961,14 @@ footer {
         padding-top: 100px;
     }
     #acheivments {
-        height: 50vh;
+        height: unset;
         margin-top: 0;
     }
+    #carusil {
+        height: unset;
+    
+    }
+    
     #blog {
         height: unset;
         padding-top: 40px;
@@ -975,6 +987,9 @@ footer {
     .card-title {
         font-size: 16px !important;
     }
+  
+  
+  
     footer {
         height: unset;
     }
@@ -1005,8 +1020,27 @@ footer {
     }
     #acheivments {
         margin-top: 0;
+        height: unset;
     }
     #blog {
+        height: unset;
+    }
+    #carusil {
+        height: unset;
+    
+    }
+   
+   
+   
+    #services {
+        height: unset;
+        padding-top: 100px;
+    }
+    #testimonial {
+        padding-top: 70px;
+        height: unset;
+    }
+    footer {
         height: unset;
     }
 }
@@ -1023,6 +1057,9 @@ footer {
         margin-top: 0;
     }
     #blog {
+        height: unset;
+    }
+    footer {
         height: unset;
     }
 }
