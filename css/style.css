@@ -380,7 +380,8 @@ span {
 
 .overlayer {
     width: 100%;
-    height: 100%;
+    padding-top: 50px;
+  
     background-color: rgba(40, 124, 217, 0.7);
     display: -webkit-box !important;
     display: -ms-flexbox !important;
@@ -778,7 +779,7 @@ footer {
     
     }
     .caption p {
-        font-size: 10px;
+        font-size: 14px;
         padding-left: 10px;
     
         line-height: 30px;
@@ -787,7 +788,7 @@ footer {
         height: unset;
     }
     #acheivments {
-        height: 120vh;
+      
         margin-top: 0;
     }
     .wrapper p {
@@ -797,9 +798,9 @@ footer {
         height: unset;
         padding-bottom: 100px;
     }
-    #contact {
-        height: 170vh;
-    }
+   
+   
+   
     .icons-container {
         margin-bottom: 20px;
     }
@@ -856,25 +857,43 @@ footer {
         padding-top: 70px;
         height: unset;
     }
+    .caption {
+        padding-right: 0;
+    }
+    .caption p {
+        line-height: 21px;
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    .item .card h5, .item .card p {
+        
+        font-size: 18px;
+       
+    }
+    
     #services {
         height: unset;
     }
     #acheivments {
-        height: 230vh;
-        margin-top: 0;
+   
+    
+        margin-top: 100px;
     }
     #blog {
         height: unset;
         padding-bottom: 100px;
     }
-    #carusil {
-        height: 120vh;
-    
+    .card-3::after, .card-2::after, .card-1::after {
+        font-size: 14px;
     }
-    
-    #contact {
-        height: 270vh;
+    .card-title {
+        font-size: 16px !important;
     }
+    .card-footer a, .card-footer span {
+        font-size: 11px;
+    }
+  
     .icons-container {
         margin-bottom: 20px;
     }
