@@ -93,6 +93,17 @@ $(".navbar-toggler").click(function () {
 
 
 
-
+const menueBtn= document.querySelector(".menue-btn")
+let menueOpen = false;
+menueBtn.addEventListener("click", () => {
+  if (!menueOpen) {
+    menueBtn.classList.add("open");
+    menueOpen = true;
+  }
+  else {
+    menueBtn.classList.remove("open");
+    menueOpen=false;
+  }
+})
 
 
